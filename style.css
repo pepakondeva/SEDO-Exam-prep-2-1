@@ -25,6 +25,7 @@ body {
   margin-left: 0.5em;
 }
 
+
 #task-list {
   list-style: none;
   padding: 0;
@@ -39,4 +40,5 @@ body {
 #task-list li.completed {
   text-decoration: line-through;
   color: #888;
+
 }
