@@ -24,4 +24,7 @@ list.addEventListener('dblclick', e => {
   if (e.target.tagName === 'LI') {
     e.target.remove();
   }
+
+  // Add new functionality 
+
 });
