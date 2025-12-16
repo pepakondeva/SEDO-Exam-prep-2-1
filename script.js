@@ -1,3 +1,5 @@
+// Add error logging for homepage
+
 // Base functionality: add task, toggle complete, delete on double-click
 
 const input = document.getElementById('task-input');
@@ -24,4 +26,5 @@ list.addEventListener('dblclick', e => {
   if (e.target.tagName === 'LI') {
     e.target.remove();
   }
+
 });
