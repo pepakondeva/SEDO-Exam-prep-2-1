@@ -27,4 +27,6 @@ list.addEventListener('dblclick', e => {
     e.target.remove();
   }
 
+  // Add new functionality 
+
 });
